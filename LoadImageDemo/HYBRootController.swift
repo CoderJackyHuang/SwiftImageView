@@ -21,5 +21,7 @@ class HYBRootController: UIViewController {
     imageView.loadImage("http://static.oschina.net/uploads/user/116/232345_50.jpg?t=1374372254000", holder: "") { (image) -> () in
       println("加载成功了");
     };
+    
+   // imageView.loadImage("http://static.oschina.net/uploads/user/116/232345_50.jpg?t=1374372254000");
   }
 }

@@ -35,6 +35,7 @@ class HYBLoadingImageView: UIImageView {
     
     self.clipsToBounds = true;
     self.layer.masksToBounds = true;
+     self.contentMode = UIViewContentMode.ScaleAspectFill;
   }
   
   required init(coder aDecoder: NSCoder) {
@@ -42,6 +43,7 @@ class HYBLoadingImageView: UIImageView {
     
     self.clipsToBounds = true;
     self.layer.masksToBounds = true;
+     self.contentMode = UIViewContentMode.ScaleAspectFill;
   }
   
   ///
